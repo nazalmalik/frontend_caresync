@@ -1,7 +1,7 @@
 // src/App.jsx
 import React, { useContext } from "react";
 import { Routes, Route, Navigate, Outlet, useLocation } from "react-router-dom";
-import { AuthContext } from "./context/authcontext";
+import { AuthContext } from "./context/AuthContext";
 import "./utils/axiosconfig";
 
 // Components
