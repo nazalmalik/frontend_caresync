@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Container, Row, Col, Button, Form } from "react-bootstrap";
 import { FaSearch, FaThumbtack, FaTrash, FaEdit, FaPlus } from "react-icons/fa";
 import { getUserNotes, createNote, updateNote, deleteNote, togglePin, searchNotes } from "../api/notes.js";
-import "./Notes.css";
+import "./notes.css";
 
 const Notes = () => {
   const [notes, setNotes] = useState([]);

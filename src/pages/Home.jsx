@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Container, Row, Col } from 'react-bootstrap';
-import './Home.css'; // Changed to standard import to match your CSS file
+import './home.css'; // Changed to standard import to match your CSS file
 import {
   FaUsers,
   FaCalendarAlt,

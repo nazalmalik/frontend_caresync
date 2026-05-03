@@ -2,9 +2,9 @@
 import React, { useState, useRef, useEffect } from "react";
 import { Outlet } from "react-router-dom";
 import { Bell } from "lucide-react";
-import axiosInstance from "../api/axiosInstance";
-import Sidebar from "../components/Sidebar";
-import "./DashboardLayout.css";
+import axiosInstance from "../api/axiosinstance";
+import Sidebar from "../components/sidebar";
+import "./dashboardlayout.css";
 
 export default function DashboardLayout() {
   const [collapsed, setCollapsed] = useState(false);

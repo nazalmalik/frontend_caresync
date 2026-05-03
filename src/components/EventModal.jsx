@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { FaTimes, FaCalendarAlt, FaClock, FaAlignLeft, FaUsers } from "react-icons/fa";
-import API from "../api/axiosInstance";
-import "./EventModal.css"; // See CSS below
+import API from "../api/axiosinstance";
+import "./eventmodal.css"; // See CSS below
 
 const EventModal = ({ isOpen, onClose, onEventCreated }) => {
   const [formData, setFormData] = useState({

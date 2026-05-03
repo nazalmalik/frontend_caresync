@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button, Badge, Row, Col } from 'react-bootstrap';
-import "./NurseCard.css";
+import "./nursecard.css";
 
 export const NurseCard = ({ nurse, onBook }) => {
   const isAvailable = nurse.availability !== 'Booked';

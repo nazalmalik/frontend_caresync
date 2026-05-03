@@ -1,8 +1,8 @@
 import React, { useEffect, useState, useRef } from "react";
-import API from "../api/axiosInstance";
+import API from "../api/axiosinstance.js";
 import socket from "../../socket/socket.js"; // ✅ ADD SOCKET
 import { toast } from "react-toastify"; // 🍞 ADD TOAST
-import "../pages/FamilyChat.css";
+import "../pages/familychat.css";
 
 const ChatWindow = ({ family, currentUser }) => {
   const [messages, setMessages] = useState([]);

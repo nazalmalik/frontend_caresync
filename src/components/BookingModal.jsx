@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Modal, Button, Image, Form, Spinner, Row, Col, Card } from 'react-bootstrap';
-import API from "../api/axiosInstance";
-import "../pages/Nurse.css";
+import API from "../api/axiosinstance";
+import "../pages/nurse.css";
 
 export const BookingModal = ({ nurse, show, onClose, onSuccess }) => {
   const [step, setStep] = useState('details');

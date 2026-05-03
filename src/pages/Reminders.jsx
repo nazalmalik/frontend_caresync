@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import API from "../api/axiosInstance";
-import "./Reminder.css";
+import API from "../api/axiosinstance";
+import "./reminder.css";
 
 const Reminders = () => {
   const [families, setFamilies] = useState([]);

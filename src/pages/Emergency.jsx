@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import axiosInstance from "../api/axiosInstance";
+import axiosInstance from "../api/axiosinstance";
 import { Container, Card, Button, Form, Alert, Row, Col } from "react-bootstrap";
 import { Send, ShieldCheck, Pill, UserSearch, PhoneCall, Radio } from "lucide-react";
-import "./Emergency.css";
+import "./emergency.css";
 
 const Emergency = () => {
   const [message, setMessage] = useState("");

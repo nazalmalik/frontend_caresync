@@ -13,9 +13,9 @@ import {
   Trash2,
   Edit2,
 } from "lucide-react";
-import API from "../api/axiosInstance";
-import { updateTaskStatus } from "../api/taskApi";
-import "./Tasks.css";
+import API from "../api/axiosinstance";
+import { updateTaskStatus } from "../api/taskapi";
+import "./tasks.css";
 
 const Tasks = () => {
   const [tasks, setTasks] = useState([]);

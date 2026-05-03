@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useMemo } from "react";
-import API from "../api/axiosInstance";
-import Sidebar from "../components/Sidebar";
+import API from "../api/axiosinstance";
+import Sidebar from "../components/sidebar";
 import { 
   Search, 
   Filter, 
@@ -13,7 +13,7 @@ import {
   Check
 } from "lucide-react";
 import { Container, Row, Col, Button, Badge, Spinner, Dropdown } from "react-bootstrap";
-import "./TaskPage.css";
+import "./taskpage.css";
 
 const TaskPage = () => {
   const [tasks, setTasks] = useState([]);

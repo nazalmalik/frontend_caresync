@@ -1,4 +1,4 @@
-import axios from "../api/axiosInstance";
+import axios from "../api/axiosinstance";
 
 export const fetchAIInsights = async () => {
   try {

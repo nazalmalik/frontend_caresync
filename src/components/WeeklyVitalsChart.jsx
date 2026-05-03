@@ -4,8 +4,8 @@ import {
   Tooltip, ResponsiveContainer, Legend 
 } from "recharts";
 import { LuTrendingUp, LuInfo } from "react-icons/lu";
-import API from "../api/axiosInstance";
-import "./WeeklyVitalsChart.css";
+import API from "../api/axiosinstance";
+import "./weeklyvitalschart.css";
 
 
 export default function WeeklyVitalsChart({ familyId }) {

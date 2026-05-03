@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import API from "../api/axiosInstance";
-import Sidebar from "../components/Sidebar";
+import API from "../api/axiosinstance";
+import Sidebar from "../components/sidebar";
 import { Form, Button, Card } from "react-bootstrap";
 import { useNavigate, useParams } from "react-router-dom";
 

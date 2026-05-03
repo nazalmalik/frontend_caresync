@@ -5,7 +5,7 @@ import {
   FiArrowRight, FiCheckCircle, FiStar, FiFilter
 } from "react-icons/fi";
 import { Container, Row, Col, Badge, Button } from "react-bootstrap";
-import "./PharmaciesList.css";
+import "./pharmacieslist.css";
 
 const PharmaciesList = () => {
   const [searchTerm, setSearchTerm] = useState("");

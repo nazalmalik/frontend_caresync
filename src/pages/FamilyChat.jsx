@@ -1,9 +1,9 @@
 // src/pages/FamilyChat.jsx
 import React, { useEffect, useState } from "react";
-import API from "../api/axiosInstance";
-import FamilyList from "../components/FamilyList";
-import ChatWindow from "../components/ChatWindow";
-import "./FamilyChat.css";
+import API from "../api/axiosinstance";
+import FamilyList from "../components/familylist";
+import ChatWindow from "../components/chatwindow";
+import "./familychat.css";
 
 const FamilyChat = () => {
   const [families, setFamilies] = useState([]);

@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { Container, Row, Col, Card, Spinner, Alert } from "react-bootstrap";
 import { FaLightbulb, FaTasks, FaCalendarAlt, FaBell, FaUsers } from "react-icons/fa";
-import API from "../api/axiosInstance";
-import "./aiInsights.css";
+import API from "../api/axiosinstance";
+import "./aiinsights.css";
 
 
 const AIInsights = () => {

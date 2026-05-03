@@ -1,8 +1,8 @@
 import React, { useEffect, useState, useMemo } from "react";
 import { useParams, Link } from "react-router-dom";
 import { Card, Spinner, Button, Form, Modal, Badge } from "react-bootstrap";
-import API from "../api/axiosInstance";
-import Sidebar from "../components/Sidebar";
+import API from "../api/axiosinstance";
+import Sidebar from "../components/sidebar";
 import {
   FaUserPlus,
   FaUserMinus,
@@ -17,7 +17,7 @@ import {
   FaCapsules, // NEW icon for Medicine mock
 } from "react-icons/fa";
 import { format, parseISO, isFuture, isSameDay, addDays } from "date-fns";
-import "./FamilyDetails.css";
+import "./familydetails.css";
 
 // Helper component for the statistic cards (UNCHANGED)
 const StatCard = ({ icon, count, title, color }) => (

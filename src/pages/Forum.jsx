@@ -1,8 +1,8 @@
 import React, { useState, useEffect, useContext } from "react";
 import axios from "axios";
-import { AuthContext } from "../context/AuthContext.jsx";
+import { AuthContext } from "../context/authcontext.jsx";
 import { FaEdit, FaTrash, FaPaperPlane, FaHeart, FaWhatsapp, FaPlus } from "react-icons/fa";
-import "./Forum.css";
+import "./forum.css";
 
 const Forum = () => {
   const { user } = useContext(AuthContext);

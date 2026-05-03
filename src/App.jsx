@@ -1,48 +1,48 @@
 // src/App.jsx
 import React, { useContext } from "react";
 import { Routes, Route, Navigate, Outlet, useLocation } from "react-router-dom";
-import { AuthContext } from "./context/AuthContext";
-import "./utils/axiosConfig";
+import { AuthContext } from "./context/authcontext";
+import "./utils/axiosconfig";
 
 // Components
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
-import ScrollToTop from "./components/ScrollToTop";
-import ProtectedRoute from "./components/ProtectedRoute";
-import Loader from "./components/Loader";
-import usePageLoader from "./hooks/usePageLoader";
+import Navbar from "./components/navbar";
+import Footer from "./components/footer";
+import ScrollToTop from "./components/scrolltotop";
+import ProtectedRoute from "./components/protectedroute";
+import Loader from "./components/loader";
+import usePageLoader from "./hooks/usepageloader";
 
 // Public Pages
-import Home from "./pages/Home";
-import Login from "./pages/Login";
-import Signup from "./pages/Signup";
-import ForgotPassword from "./pages/ForgotPassword";
-import ResetPassword from "./pages/ResetPassword";
-import DoctorsList from "./pages/DoctorsList";
-import DoctorDetail from "./pages/DoctorDetail";
-import PharmaciesList from "./pages/PharmaciesList";
-import Nurse from "./pages/Nurse";
-import Profile from "./pages/Profile";
+import Home from "./pages/home";
+import Login from "./pages/login";
+import Signup from "./pages/signup";
+import ForgotPassword from "./pages/forgotpassword";
+import ResetPassword from "./pages/resetpassword";
+import DoctorsList from "./pages/doctorslist";
+import DoctorDetail from "./pages/doctordetail";
+import PharmaciesList from "./pages/pharmacieslist";
+import Nurse from "./pages/nurse";
+import Profile from "./pages/profile";
 
 
 // Dashboard Pages
-import Dashboard from "./pages/Dashboard";
-import FamilyDashboard from "./pages/FamilyDashboard";
-import FamilyDetails from "./pages/FamilyDetails";
-import Tasks from "./pages/Tasks";
-import Calendar from "./pages/Calendar";
-import HealthLogs from "./pages/HealthLogs";
-import Reminders from "./pages/Reminders";
-import Forum from "./pages/Forum";
-import FamilyChat from "./pages/FamilyChat";
-import AnalyticsDashboard from "./pages/AnalyticsDashboard";
-import AIInsights from "./pages/AIInsights";
-import Emergency from "./pages/Emergency";
-import Notes from "./pages/Notes";
-import Analytic from "./pages/Analytic"
+import Dashboard from "./pages/dashboard";
+import FamilyDashboard from "./pages/familydashboard";
+import FamilyDetails from "./pages/familydetails";
+import Tasks from "./pages/tasks";
+import Calendar from "./pages/calendar";
+import HealthLogs from "./pages/healthlogs";
+import Reminders from "./pages/reminders";
+import Forum from "./pages/forum";
+import FamilyChat from "./pages/familychat";
+import AnalyticsDashboard from "./pages/analyticsdashboard";
+import AIInsights from "./pages/aiinsights";
+import Emergency from "./pages/emergency";
+import Notes from "./pages/notes";
+import Analytic from "./pages/analytic"
 
 // Layout
-import DashboardLayout from "./layouts/DashboardLayout";
+import DashboardLayout from "./layouts/dashboardlayout";
 
 export default function App() {
   const { user } = useContext(AuthContext);

@@ -8,7 +8,7 @@ import {
 } from "react-icons/fa";
 import doctors from "../data/doctors";
 import { Container, Row, Col, Card, Button, Badge } from 'react-bootstrap';
-import "./DoctorDetail.css";
+import "./doctordetail.css";
 
 const DoctorDetail = () => {
   const { id } = useParams();

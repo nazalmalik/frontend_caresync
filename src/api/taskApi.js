@@ -1,4 +1,4 @@
-import API from "./axiosInstance";
+import API from "./axiosinstance";
 
 export const createTask = (data) =>
   API.post("/api/tasks", data);
