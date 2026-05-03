@@ -2,7 +2,7 @@
 import React, { useContext } from "react";
 import { Routes, Route, Navigate, Outlet, useLocation } from "react-router-dom";
 import { AuthContext } from "./context/AuthContext";
-import "./utils/axiosconfig";
+import "./utils/axiosConfig";
 
 // Components
 import Navbar from "./components/navbar";
