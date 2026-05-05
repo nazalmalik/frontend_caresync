@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "./footer.css";
 
+
 const Footer = () => {
   return (
     <footer className="footer-section">
