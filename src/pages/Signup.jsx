@@ -15,7 +15,7 @@ const Signup = () => {
 
   const { login } = useContext(AuthContext);
   const navigate = useNavigate();
-
+ ""
   const handleSubmit = async (e) => {
     e.preventDefault();
     setError("");

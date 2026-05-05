@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from "react";
 import { FaTasks, FaPills, FaPlus, FaChevronRight, FaUsers, FaCalendarAlt } from "react-icons/fa";
 import useAuth from "../hooks/useAuth";
-import API from "../api/axiosinstance";
+import API from "../api/axiosInstance";
 import "./Dashboard.css";
 import { useNavigate } from "react-router-dom";
 
