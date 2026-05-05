@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Card, Spinner, Badge } from "react-bootstrap";
-import Sidebar from "../components/sidebar";
+import Sidebar from "../components/Sidebar";
 import { getUserTasks } from "../api/taskapi";
 
 const UserTasksPage = () => {

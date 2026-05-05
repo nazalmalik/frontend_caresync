@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
-import API from "../api/axiosinstance";
-import useAuth from "../hooks/useauth";
-import "./profile.css";
+import API from "../api/axiosInstance";
+import useAuth from "../hooks/useAuth";
+import "./Profile.css";
 
 const Profile = () => {
   const { user = {}, setUser } = useAuth();

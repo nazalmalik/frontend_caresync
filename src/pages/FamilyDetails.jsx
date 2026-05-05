@@ -3,7 +3,7 @@ import { useParams, Link } from "react-router-dom";
 import { Card, Button, Form, Modal, Badge, Spinner, Row, Col, Container } from "react-bootstrap";
 import API from "../api/axiosinstance";
 import { FaUserPlus, FaUserMinus, FaChevronLeft, FaRegEnvelope, FaFingerprint, FaCopy, FaUsers } from "react-icons/fa";
-import "./familydetails.css";
+import "./FamilyDetails.css";
 
 const FamilyDetails = () => {
     const { id } = useParams();

@@ -1,4 +1,4 @@
-import API from "../api/axiosinstance";
+import API from "../api/axiosInstance";
 
 // Create Task (AI auto assign)
 export const createTask = (data) => API.post("api/tasks", data);

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import API from "../api/axiosinstance";
+import API from "../api/axiosInstance";
 
 const Analytics = ({ familyId }) => {
   const [analytics, setAnalytics] = useState(null);

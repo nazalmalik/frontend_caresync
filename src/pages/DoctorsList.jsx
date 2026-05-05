@@ -10,7 +10,7 @@ import {
   FaRegHeart,
 } from "react-icons/fa";
 import { Container, Row, Col, Card, Button, Form, Badge } from "react-bootstrap";
-import "./doctorslist.css";
+import "./DoctorsList.css";
 
 const specialties = [
   "All",

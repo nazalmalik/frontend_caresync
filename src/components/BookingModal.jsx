@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Modal, Button, Image, Form, Spinner, Row, Col, Card } from 'react-bootstrap';
-import API from "../api/axiosinstance";
+import API from "../api/axiosInstance";
 import "../pages/Nurse.css";
 
 export const BookingModal = ({ nurse, show, onClose, onSuccess }) => {

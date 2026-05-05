@@ -1,9 +1,9 @@
 // Dashboard.jsx
 import React, { useState, useEffect } from "react";
 import { FaTasks, FaPills, FaPlus, FaChevronRight, FaUsers, FaCalendarAlt } from "react-icons/fa";
-import useAuth from "../hooks/useauth";
+import useAuth from "../hooks/useAuth";
 import API from "../api/axiosinstance";
-import "./dashboard.css";
+import "./Dashboard.css";
 import { useNavigate } from "react-router-dom";
 
 // ✅ NEW IMPORT

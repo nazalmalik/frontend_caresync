@@ -1,5 +1,5 @@
 import React from "react";
-import "../pages/familychat.css";
+import "../pages/FamilyChat.css";
 const FamilyList = ({ families, selectedFamily, onSelect }) => {
   return (
 <div className="family-section">

@@ -3,7 +3,7 @@ import { MOCK_NURSES, BANK_DETAILS } from '../data/nurses';
 import { Container, Row, Col, Form, Button, InputGroup, Card, Badge } from 'react-bootstrap';
 import { NurseCard } from '../components/NurseCard';
 import { BookingModal } from '../components/BookingModal';
-import "./nurse.css";
+import "./Nurse.css";
 
 const Nurses = () => {
   const [nurses, setNurses] = useState(MOCK_NURSES);

@@ -20,7 +20,7 @@ import {
   
 } from "lucide-react";
 import "./Sidebar.css";
-import { AuthContext } from "../context/authcontext";
+import { AuthContext } from "../context/AuthContext";
 
 const Sidebar = ({ collapsed, setCollapsed }) => {
   const navigate = useNavigate();

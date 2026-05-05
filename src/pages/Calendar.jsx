@@ -7,10 +7,10 @@ import {
   isSameMonth, isSameDay, addMonths, subMonths
 } from "date-fns";
 import { FaAngleLeft, FaAngleRight, FaPlus } from "react-icons/fa";
-import API from "../api/axiosinstance";
-import EventModal from "../components/eventmodal";
-import useAuth from "../hooks/useauth";
-import "./calendar.css";
+import API from "../api/axiosInstance";
+import EventModal from "../components/EventModal";
+import useAuth from "../hooks/useAuth";
+import "./Calendar.css";
 
 const EVENT_TYPES = {
   APPOINTMENT: { color: "blue", label: "Appointment" },

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import API from "../api/axiosinstance";
 import { Link } from "react-router-dom";
-import "./auth.css";
+import "./Auth.css";
 
 const ForgotPassword = () => {
   const [email, setEmail] = useState("");

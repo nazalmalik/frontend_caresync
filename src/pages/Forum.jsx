@@ -1,8 +1,8 @@
 import React, { useState, useEffect, useContext } from "react";
 import axios from "axios";
-import { AuthContext } from "../context/authcontext.jsx";
+import { AuthContext } from "../context/AuthContext.jsx";
 import { FaEdit, FaTrash, FaPaperPlane, FaHeart, FaWhatsapp, FaPlus } from "react-icons/fa";
-import "./forum.css";
+import "./Forum.css";
 
 const Forum = () => {
   const { user } = useContext(AuthContext);
@@ -13,7 +13,7 @@ const Forum = () => {
   const [editingPost, setEditingPost] = useState(null);
   const [commentTexts, setCommentTexts] = useState({});
 
-  const API_URL = "http://localhost:5000/api/forum";
+  const API_URL = "https://caresync-backend-production-b0da.up.railway.app/api/forum";
 
   const loadPosts = async () => {
     if (!user) return;
