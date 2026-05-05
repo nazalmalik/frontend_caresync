@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import API from "../api/axiosinstance";
+import API from "../api/axiosInstance";
 import { Link } from "react-router-dom";
 import "./Auth.css";
 
