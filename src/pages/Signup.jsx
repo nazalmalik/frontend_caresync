@@ -1,5 +1,5 @@
 import React, { useState, useContext } from "react";
-import API from "../api/axiosinstance";
+import API from "../api/axiosInstance";
 import { useNavigate, Link } from "react-router-dom";
 import { AuthContext } from "../context/AuthContext";
 import "./Auth.css";
