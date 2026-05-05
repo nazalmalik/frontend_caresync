@@ -1,8 +1,8 @@
 import React, { useState, useMemo } from 'react';
 import { MOCK_NURSES, BANK_DETAILS } from '../data/nurses';
 import { Container, Row, Col, Form, Button, InputGroup, Card, Badge } from 'react-bootstrap';
-import { NurseCard } from '../components/nursecard';
-import { BookingModal } from '../components/bookingmodal';
+import { NurseCard } from '../components/NurseCard';
+import { BookingModal } from '../components/BookingModal';
 import "./nurse.css";
 
 const Nurses = () => {
