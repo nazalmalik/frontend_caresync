@@ -133,12 +133,12 @@ const ChatWindow = ({ family, currentUser }) => {
                     msg.file.match(/\.(jpg|jpeg|png|gif|webp)$/i) ? (
                       <div className="chat-image-wrapper">
                         <img
-                          src={`http://localhost:5000${msg.file}`}
+                          src={`https://caresync-backend-production-b0da.up.railway.app${msg.file}`}
                           alt="uploaded"
                           className="chat-image"
                         />
                         <a
-                          href={`http://localhost:5000${msg.file}`}
+                          href={`https://caresync-backend-production-b0da.up.railway.app/${msg.file}`}
                           download
                           className="image-download"
                         >
@@ -147,7 +147,7 @@ const ChatWindow = ({ family, currentUser }) => {
                       </div>
                     ) : (
                       <a
-                        href={`http://localhost:5000${msg.file}`}
+                        href={`https://caresync-backend-production-b0da.up.railway.app/${msg.file}`}
                         download
                         className="chat-file"
                       >
