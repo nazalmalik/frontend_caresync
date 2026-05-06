@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams, Link } from "react-router-dom";
 import { Card, Button, Form, Modal, Badge, Spinner, Row, Col, Container } from "react-bootstrap";
-import API from "../api/axiosinstance";
+import API from "../api/axiosInstance";
 import { FaUserPlus, FaUserMinus, FaChevronLeft, FaRegEnvelope, FaFingerprint, FaCopy, FaUsers } from "react-icons/fa";
 import "./FamilyDetails.css";
 
