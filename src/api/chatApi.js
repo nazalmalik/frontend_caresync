@@ -1,4 +1,4 @@
-import API from "./axiosinstance";
+import API from "./axiosInstance";
 
 // Fetch all messages for a family
 export const getFamilyMessages = async (familyId) => {
