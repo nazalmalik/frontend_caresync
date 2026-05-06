@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const axiosInstance = axios.create({
-  baseURL: import.meta.env.VITE_API_URL ||"https://caresync-backend-production-b0da.up.railway.app/",
+  baseURL: import.meta.env.VITE_API_URL ||"https://caresync-backend-production-b0da.up.railway.app",
 });
 
 axiosInstance.interceptors.request.use((config) => {
